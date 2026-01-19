@@ -131,7 +131,7 @@
             const pin = Array.from(pinInputs).map(i => i.value).join('');
             if (pin.length === 6) {
                 try {
-                    const response = await fetch('https://back-939v.onrender.com/api/auth/verify', {
+                    const response = await fetch('https://nordes.onrender.com/api/auth/verify', {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify({ password: pin })
@@ -193,8 +193,8 @@
     const mainContent = document.getElementById('main-content');
 
     // Carregar dados reais dos livros da API Flask
-    const API_URL = 'https://nordes.onrender.com/api/books';
-    const UPLOADS_URL = 'https://nordes.onrender.com/uploads/';
+    const API_URL = 'https://back-939v.onrender.com/api/books';
+    const UPLOADS_URL = 'https://back-939v.onrender.com/uploads/';
 
     fetch(API_URL)
         .then(response => response.json())
