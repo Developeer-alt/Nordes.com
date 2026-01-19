@@ -131,7 +131,7 @@
             const pin = Array.from(pinInputs).map(i => i.value).join('');
             if (pin.length === 6) {
                 try {
-                    const response = await fetch('https://nordes.onrender.com/api/auth/verify', {
+                    const response = await fetch('https://back-939v.onrender.com/api/auth/verify', {
                         method: 'POST',
                         headers: { 'Content-Type': 'application/json' },
                         body: JSON.stringify({ password: pin })
