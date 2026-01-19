@@ -138,7 +138,7 @@
                     });
                     
                     if (response.ok) {
-                        window.location.href = '../private-pages/central.html';
+                        window.location.href = 'private-pages/central.html';
                     } else {
                         secretError.style.display = 'block';
                         pinInputs.forEach(i => i.value = '');
