@@ -14,7 +14,7 @@ const API_URL = 'https://nordes.onrender.com/api/books';
         }
 
         function renderBooks(books) {
-            const UPLOADS_URL = 'https://nordes.onrender.com/uploads/';
+            const UPLOADS_URL = 'https://back-939v.onrender.com/uploads/';
             const tbody = document.getElementById('books-table-body');
             tbody.innerHTML = books.map(book => {
                 const imgPath = book.image ? (book.image.startsWith('http') ? book.image : UPLOADS_URL + book.image) : '../public/assets/img/logo/logo.png';
