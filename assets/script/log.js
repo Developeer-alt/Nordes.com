@@ -192,6 +192,6 @@
         const user = localStorage.getItem('nordes_user');
         if (user) {
             // Se o usuário já está logado, redirecionar para home
-            window.location.href = '../../../faltam/perfil.html';
+            window.location.href = 'perfil.html';
         }
     });
