@@ -1,5 +1,5 @@
     // Configurações
-    const BACKEND_URL = 'https://nordes.onrender.com';
+    const BACKEND_URL = 'https://back-939v.onrender.com';
     const FRONTEND_URL = window.location.origin;
     const CHECK_INTERVAL = 30000; // 30 segundos
 
